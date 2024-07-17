@@ -48,7 +48,7 @@ const App = () => (
       </p>
       <ul className="cards-list">
         {cardsList.map(eachCard => (
-          <CardItem card Details={eachCard} key={eachCard.id} />
+          <CardItem cardDetails={eachCard} key={eachCard.id} />
         ))}
       </ul>
     </div>
